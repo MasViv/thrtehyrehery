@@ -1,0 +1,27 @@
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3
+{
+    font-size:25px;
+}
+
+.btn-danger:hover
+{
+    background-color:black;
+}
+
+canvas
+{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 10px 10px 38px black ;}
+    to {box-shadow: 10px 10px 38px red;}
+}
